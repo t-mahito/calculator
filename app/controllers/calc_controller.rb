@@ -1,5 +1,6 @@
 class CalcController < ApplicationController
   def index
+    @box = Box.new
 
   end
 
