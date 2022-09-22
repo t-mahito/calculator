@@ -1,1 +1,4 @@
-ようこそ
+<%= form_with url:calc_index_path do |form| %>
+<%= form.text_field :integer%>
+<%= form.submit "決定"%>
+<% end %>

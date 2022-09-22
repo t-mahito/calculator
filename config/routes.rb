@@ -6,4 +6,4 @@ resources :calc ,only:[:index,:new,:create] do
     get "main"
   end
  end
-end
+end 
