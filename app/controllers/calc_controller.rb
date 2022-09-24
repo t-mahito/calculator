@@ -6,6 +6,10 @@ require "./app/commonclass/box"
 
   end
 
+  def new
+  end
+  
+
   def create 
     @box = Box.new(
       integer: params[:integer]
