@@ -7,8 +7,9 @@ require "./app/commonclass/box"
   end
 
   def new
+    @box = Box.new
   end
-  
+
 
   def create 
     @box = Box.new(
